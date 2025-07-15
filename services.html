@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - InsightEdge</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">InsightEdge</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <h1>Our Services</h1>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+
+                <div class="service-detail">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=750&q=80" alt="Executive Coaching">
+                    </div>
+                    <div class="service-content">
+                        <h2><i class="fas fa-user-tie"></i> Executive Coaching</h2>
+                        <p>Empowering leaders to grow, adapt, and lead with clarity. Our one-on-one coaching sessions are tailored to help executives enhance their leadership skills, improve decision-making, and drive their teams toward success.</p>
+                    </div>
+                </div>
+
+                <div class="service-detail">
+                    <div class="service-content">
+                        <h2><i class="fas fa-graduation-cap"></i> Career Guidance</h2>
+                        <p>Helping individuals chart a fulfilling and strategic career path. Whether you are a student, a recent graduate, or a professional seeking change, we provide the tools and insights needed to navigate your career with confidence.</p>
+                    </div>
+                    <div class="service-image">
+                         <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=750&q=80" alt="Career Guidance">
+                    </div>
+                </div>
+
+                <div class="service-detail">
+                     <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=750&q=80" alt="Organizational Consulting">
+                    </div>
+                    <div class="service-content">
+                        <h2><i class="fas fa-chart-pie"></i> Organizational Consulting</h2>
+                        <p>Designing high-performing cultures and aligning teams with strategy. We partner with organizations to identify challenges, implement change, and build a workplace environment where both people and business can thrive.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding text-center" style="background-color: var(--primary-color); color: var(--white);">
+            <div class="container">
+                <h2 style="color: var(--white);">Ready to Transform Your Potential?</h2>
+                <p style="color: var(--light-gray); margin-bottom: 30px;">Let's discuss how our insights can benefit you or your organization.</p>
+                <a href="contact.html" class="btn">Book a Free Discovery Call</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+         <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>InsightEdge</h4>
+                <p>Unlock Human Potential</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+             <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope"></i> info@insightedge.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>Copyright © 2025 InsightEdge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "How Emotional Intelligence Drives Leadership Success",
+      "author": "Dr. Ramya",
+      "date": "2025-07-10",
+      "thumbnail": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=750&q=80",
+      "tags": ["Leadership", "Psychology", "Growth"],
+      "content": "Emotional intelligence (EQ) is the cornerstone of effective leadership. It's the ability to recognize, understand, and manage our own emotions, as well as recognize, understand, and influence the emotions of others. Leaders with high EQ can foster better collaboration, navigate change more effectively, and build a culture of trust and resilience within their teams."
+    },
+    {
+      "id": 2,
+      "title": "Building a Culture of Trust in Your Organization",
+      "author": "Dr. Ranjith Nambiar",
+      "date": "2025-07-15",
+      "thumbnail": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=750&q=80",
+      "tags": ["Culture", "Trust", "Coaching"],
+      "content": "Trust is the foundation of any high-performing team. Without it, communication breaks down, collaboration suffers, and innovation stagnates. Building a culture of trust requires intentional effort from leadership. It involves transparency, consistency, and empowering employees to take ownership and risks without fear of failure."
+    }
+  ]

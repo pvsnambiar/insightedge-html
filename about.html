@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - InsightEdge</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">InsightEdge</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <h1>About InsightEdge</h1>
+        </section>
+
+        <section class="section-padding">
+            <div class="container about-grid">
+                <div>
+                    <h2>Our Mission</h2>
+                    <p>To empower leaders, professionals, and organizations with actionable insights and data-driven strategies that cultivate growth, innovation, and a thriving workplace culture.</p>
+                </div>
+                 <div>
+                    <h2>Our Vision</h2>
+                    <p>To be the leading catalyst for positive transformation in organizational behavior and individual career trajectories worldwide.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-padding" style="background-color: #fff;">
+            <div class="container">
+                <h2 class="section-title">Meet the Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/ranjith.jpg" alt="Founder 1">
+                        <h4>Dr. Ranjith Nambiar</h4>
+                        <p>Co-Founder & Lead Consultant</p>
+                    </div>
+                    <!--<div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Founder 2">
+                        <h4>Dr. Ramya Ranjith</h4>
+                        <p>Co-Founder & Head of Coaching</p>
+                    </div>-->
+                     <div class="team-member">
+                        <img src="images/suji.jpg" alt="Team Member">
+                        <h4>Sujith Mohan</h4>
+                        <p>Senior Career Advisor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us</h2>
+                 <ul class="why-us-list" style="max-width: 800px; margin: auto;">
+                    <li><i class="fas fa-check-circle"></i> <strong>ICF-Certified Coaches:</strong> Our team adheres to the highest standards of professional coaching.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>15+ Years of Experience:</strong> Proven track record in organizational consulting and behavioral science.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Data-Driven Approach:</strong> We use proven methodologies and assessments for measurable results.</li>
+                    <li><i class="fas fa-check-circle"></i> <strong>Tailored Strategies:</strong> We don't believe in one-size-fits-all. Every solution is customized.</li>
+                 </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>InsightEdge</h4>
+                <p>Unlock Human Potential</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+             <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope"></i> info@insightedge.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>Copyright © 2025 InsightEdge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
